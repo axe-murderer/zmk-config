@@ -23,7 +23,4 @@ config BT_MAX_CONN
 config BT_MAX_PAIRED
     default 7
 
-CONFIG ZMK_DISPLAY
-    default n
-
 endif
