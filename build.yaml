@@ -19,8 +19,9 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nrf52840_mdk_usb_dongle
     shield: lily58_dongle
+    cmake-args: -DCONFIG_BUILD_OUTPUT_UF2=y
   - board: nice_nano_v2
     shield: settings_reset
   - board: nice_nano_v2
